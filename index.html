@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>E-commerce product page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<section id="navbar-section">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid navbar-block">
+    <a class="navbar-brand">sneakers</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link">Collections</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Men</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Women</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Contact</a>
+        </li>
+      </ul>
+  </div>
+
+  <ul class="navbar-nav ms-auto nav-images">
+    <li class="nav-item">
+      <a class="nav-link"><i class="fas fa-shopping-cart my-cart"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"><img class="my-image" src="images/my image.png"/></a>
+    </li>
+  </ul>
+
+
+</div>
+</nav>
+</section>
+
+
+<section id="main-body">
+ <div class="container-fluid row">
+   <div class="all-shoes-photos col-lg-6">
+     <img class="shoes-image main-shoes-image" src="images/image-product-1.jpg" alt="">
+     <div class="thumbnail-images">
+       <img class="shoes-image sub-shoes-image" src="images/image-product-1-thumbnail.jpg" alt="">
+       <img class="shoes-image sub-shoes-image" src="images/image-product-2-thumbnail.jpg" alt="">
+       <img class="shoes-image sub-shoes-image" src="images/image-product-3-thumbnail.jpg" alt="">
+       <img class="shoes-image sub-shoes-image" src="images/image-product-4-thumbnail.jpg" alt="">
+     </div>
+
+   </div>
+
+   <div class="complete-description-section col-lg-6">
+    <p class="company-name">SNEAKERS COMPANY</p>
+     <h1>Fall Limited Edition Sneakers</h1>
+     <p class="product-description">These low-profile sneakers are your perfect casual wear companion. Featuring a
+     durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+
+
+    <div class="all-prices">
+      <div class="current-price">
+        $125.00
+      </div>
+      <div class="percent-off">
+        50%
+      </div>
+      <div class="initial-price">
+          $250.00
+      </div>
+
+
+
+    </div>
+    <div class="button-increment-decrement-block">
+      <div>
+       <i class="fas fa-minus decrement"></i>
+        <span class="numOfShoes">0</span>
+      <i class="fas fa-plus increment"></i>
+      </div>
+
+      <div class="">
+          <button type="button" class="btn btn-lg add-to-cart-btn"><i class="fas fa-shopping-cart shopping-cart-font"></i>Add to cart</button>
+      </div>
+    </div>
+
+
+   </div>
+ </div>
+
+</section>
+
+
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
